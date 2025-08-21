@@ -25,6 +25,9 @@
         <mxCell id="sJQCKHL5VmwoIA83D4o8-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJQCKHL5VmwoIA83D4o8-1" target="sJQCKHL5VmwoIA83D4o8-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJQCKHL5VmwoIA83D4o8-1" target="sJQCKHL5VmwoIA83D4o8-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sJQCKHL5VmwoIA83D4o8-1" value="GainService（服务）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="190" y="270" width="160" height="30" as="geometry" />
         </mxCell>
@@ -132,6 +135,33 @@
         </mxCell>
         <mxCell id="sJQCKHL5VmwoIA83D4o8-21" value="DeleteOldPackage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="509" y="410" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJQCKHL5VmwoIA83D4o8-58" target="sJQCKHL5VmwoIA83D4o8-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJQCKHL5VmwoIA83D4o8-58" target="sJQCKHL5VmwoIA83D4o8-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJQCKHL5VmwoIA83D4o8-58" target="sJQCKHL5VmwoIA83D4o8-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sJQCKHL5VmwoIA83D4o8-58" target="sJQCKHL5VmwoIA83D4o8-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-58" value="检查接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="521" width="66" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-59" value="CheckUpdateByPackageID（CheckUpdateByGameID）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="534.5" y="450" width="191" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-60" value="CheckStorageAvailable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="534.5" y="551" width="154" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-61" value="CheckGameExistByPackageID（CheckGameExistByGameID）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="534.5" y="501" width="191" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQCKHL5VmwoIA83D4o8-62" value="CheckDownConditionByVersion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="534.5" y="584" width="184" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
